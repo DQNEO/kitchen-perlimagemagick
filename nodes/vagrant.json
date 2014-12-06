@@ -1,8 +1,8 @@
 {
   "run_list" : [
-    "perlbuild",
-    "perlbuild::cpanm",
-    "perlbuild::carton",
+    "perl",
+    "perl::cpanm",
+    "perl::carton",
     "imagemagick"
   ]
 }
